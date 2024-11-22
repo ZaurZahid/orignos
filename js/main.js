@@ -22,7 +22,7 @@ window.addEventListener('scroll', function () {
     }
 });
 
-LocomotiveJs();
+// LocomotiveJs();
 initFluid();
 cursor();
 animateNav();
