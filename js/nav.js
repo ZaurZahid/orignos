@@ -1,5 +1,5 @@
 export function animateNav() {
-    var tl = new TimelineMax({ paused: true })
+    var tl = new TimelineMax()
 
     tl.to(".top", 0.8, {
         y: 2,
@@ -14,12 +14,12 @@ export function animateNav() {
         delay: -0.8
     });
 
-    tl.to(".menu_overlay", .1, {
-        height: "100%",
-        ease: Expo.easeInOut,
-        delay: -.1,
-        opacity: 1
-    });
+    // tl.to(".menu_overlay", .1, {
+    //     height: "100%",
+    //     ease: Expo.easeInOut,
+    //     delay: -.1,
+    //     opacity: 1
+    // });
 
     tl.to(".menu", 0.8, {
         top: "0%",
@@ -27,8 +27,8 @@ export function animateNav() {
         delay: -1
     });
 
-    tl.staggerFrom(".menu a", .1, { y: 20, opacity: 0, ease: Expo.ease, delay: -.1 }, 0.1);
-    // tl.staggerFrom(".social_cnt img", .5, { y: 20, opacity: 0, ease: Expo.ease, delay: -.7 }, 0.2);
+    tl.staggerFrom(".menu a", 0.1, { y: 20, opacity: 0, ease: Expo.ease, delay: -.01 }, 0.05);
+    tl.staggerFrom(".social_cnt img", .1, { y: 20, opacity: 0, ease: Expo.ease, delay: -.01 }, 0.02);
 
     tl.reverse();
 

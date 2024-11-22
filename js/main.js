@@ -109,3 +109,12 @@ function pageReveal() {
         delay: 0.5,
     })
 }
+
+window.addEventListener('scroll', function () {
+    const navbar = document.querySelector('nav');
+    if (window.pageYOffset > 100) {
+        navbar.classList.add('scrolled');
+    } else {
+        navbar.classList.remove('scrolled');
+    }
+});
