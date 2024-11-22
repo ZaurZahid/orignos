@@ -1114,6 +1114,10 @@ footer .full h1 {
   }
 }
 
+.about_team {
+  overflow-x: scroll;
+}
+
 .about_team .wrapper {
   display: flex;
   align-items: center;
@@ -1392,6 +1396,7 @@ footer .full h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  overflow-x: scroll;
 }
 
 .insights_Office .horizontal_scroll {
