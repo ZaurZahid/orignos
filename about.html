@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orignos | About</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <!-- CSS -->
+    <!-- Locomotive -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <!-- fixed canvas cursor -->
+    <div class="canvas-wrapper">
+        <canvas id="fluid"></canvas>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+
+    <!-- Navbar -->
+    <nav>
+        <div id="container">
+            <a href="index.html">
+                <h2>Orignos</h2>
+            </a>
+
+            <div class="hamburger">
+                <p>menu</p>
+                <div class="toggle focus" data-magnetic>
+                    <span class="top"></span>
+                    <span class="bottom"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Fullscreen Nav-->
+    <div class="menu">
+        <div id="container">
+            <div class="left">
+                <a href="about.html" data-text='about'>about</a>
+                <a href="works.html" data-text='work'>work</a>
+                <a href="service.html" data-text='services'>services</a>
+                <a href="team.html" data-text='team'>team</a>
+                <a href="contact.html" data-text='contact'>contact</a>
+            </div>
+            <div class="right">
+                <a href="mailto:info@Orignos.com" class="focus">info@Orignos.com</a>
+                <a href="tel:+011234567890" class="focus">+01 1234567890</a>
+                <div class="social_cnt">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img class="focus" src="assets/instagram.svg" alt="instagram" loading="lazy" data-magnetic>
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img class="focus" src="assets/facebook.svg" alt="facebook" loading="lazy" data-magnetic>
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img class="focus" src="assets/linkedin.svg" alt="linkedin" loading="lazy" data-magnetic>
+                    </a>
+                    <a href="https://dribbble.com" target="_blank">
+                        <img class="focus" src="assets/dribble.svg" alt="dribble" loading="lazy" data-magnetic>
+                    </a>
+                    <a href="https://www.behance.net" target="_blank">
+                        <img class="focus" src="assets/behance.svg" alt="behance" loading="lazy" data-magnetic>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu_overlay"></div>
+
+    <!-- Scrollable Content -->
+    <div id="main">
+        <!-- Hero -->
+        <header class="hero">
+            <div id="container">
+                <h2 class="focus2">A dynamic design agency, in our approach.</h2>
+                <p class="smallT">
+                    Embracing a spectrum of creative challenges, our studio thrives on versatility. We adapt our design
+                    solutions to meet your unique digital needs.
+                </p>
+            </div>
+        </header>
+
+        <!-- full img -->
+        <div id="full_img">
+            <div class="parallax_img">
+                <img src="assets/about.jpg" alt="about" loading="lazy" data-scroll data-scroll-speed="-1"></img>
+
+                <h1 class="focus2">
+                    establish <br> since <br> 2010
+                </h1>
+            </div>
+        </div>
+
+        <!-- Who we are -->
+        <section class="about_whoWeAre">
+            <div id="container">
+                <div class="heading_cnt">
+                    <div class="heading">
+                        <h1 class="fade">Who <br> We are</h1>
+                        <h1 class="fill">who <br> we are</h1>
+                    </div>
+                </div>
+                <h5 class="mT2">
+                    Orignos not only pioneers exceptional digital solutions that resonate with its audience but
+                    also ensures these solutions are seamlessly integrated across various platforms, providing a
+                    cohesive and intuitive user experience. With a team of highly skilled professionals, Orignos
+                    harnesses the latest in technology and design trends to create products that are not only
+                    visually stunning but also highly functional and user-friendly.
+                </h5>
+
+                <div class="txt mT5">
+                    <p class="mT5">
+                        Dedicated to pushing the boundaries of digital innovation, Orignos collaborates closely with
+                        clients to understand their unique needs and challenges. This client-centric approach allows for
+                        the creation of customized strategies that drive growth and success in an ever-evolving digital
+                        landscape. Whether it's a startup looking to disrupt the market or an established brand aiming
+                        to rejuvenate its digital presence, Orignos provides the expertise and insight necessary to
+                        achieve these goals.
+                    </p>
+
+                    <p class="mT2">
+                        Moreover, Orignos is committed to fostering a culture of continuous learning and improvement,
+                        ensuring that the team remains at the cutting edge of digital design and development. By
+                        prioritizing the latest advancements in AI, VR, and IoT, Orignos is not just creating for the
+                        current digital environment but is also future-proofing its clients' products for the next wave
+                        of technological innovation.
+                    </p>
+                </div>
+                <div class="about_card mT5">
+                    <div class="card" data-scroll data-scroll-speed="1">
+                        <h1>40+</h1>
+                        <h4>awards & recognition</h4>
+                    </div>
+                    <div class="card" data-scroll data-scroll-speed="2">
+                        <h1>700+</h1>
+                        <h4>Projects completed</h4>
+                    </div>
+                    <div class="card" data-scroll data-scroll-speed="3">
+                        <h1>30+</h1>
+                        <h4>Team Members</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team -->
+        <section class="about_team">
+            <div id="container">
+                <div class="heading_cnt">
+                    <div class="heading">
+                        <h1 class="fade">Meet <br> Our team</h1>
+                        <h1 class="fill">Meet <br> Our team</h1>
+                    </div>
+                    <a href="team.html" class="btn focus" data-magnetic>
+                        <span>Discover Team</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="wrapper mT5" data-scroll data-scroll-direction="horizontal" data-scroll-speed="4">
+                <img src="assets/team/1.jpg" alt="profile" loading="lazy">
+                <img src="assets/team/2.jpg" alt="profile" loading="lazy">
+                <img src="assets/team/3.jpg" alt="profile" loading="lazy">
+                <img src="assets/team/4.jpg" alt="profile" loading="lazy">
+                <img src="assets/team/5.jpg" alt="profile" loading="lazy">
+            </div>
+        </section>
+
+        <!-- Experiences -->
+        <section class="about_experiences">
+            <div id="container">
+                <div class="heading_cnt">
+                    <div class="heading">
+                        <h1 class="fade">Expe <br> riences</h1>
+                        <h1 class="fill">Expe <br> riences</h1>
+                    </div>
+                </div>
+
+                <div class="wrapper mT5">
+                    <div class="card">
+                        <h5>
+                            E-commerce Solution
+                        </h5>
+                        <p>
+                            We develop E-Commerce sites that boost conversion, fuel growth and deliver impactful
+                            results. We don't do cookie-cutter solutions, only a bespoke strategy for your specific
+                            challenges and goals, without compromises on creativity or performance.
+                        </p>
+                        <div>
+                            <h5>97</h5>
+                            <p>
+                                E-Commerce Delivered
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5>
+                            Website Design
+                        </h5>
+                        <p>
+                            We blend aesthetics with functionality to build impactful digital experiences that resonate
+                            with the target audiences. Our user-centered design process and implementation encourages
+                            productivity and helps with company revenue and growth.
+                        </p>
+                        <div>
+                            <h5>850</h5>
+                            <p>
+                                Website Completed
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5>
+                            Digital Products
+                        </h5>
+                        <p>
+                            We create digital products from scratch using the right technology that suits each build.
+                            Each of our experts bring something new to the project in order to create complex,
+                            hardworking platforms delivered through user-friendly, intuitive solutions.
+                        </p>
+                        <div>
+                            <h5>89</h5>
+                            <p>
+                                Products Developed
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5>
+                            Brand Identities
+                        </h5>
+                        <p>
+                            We craft memorable brand identities for print and digital success. The significance in a
+                            brand is what you emotionally feel when interacting with the service or product. We help
+                            established and startup brands in creating timeless designs.
+                        </p>
+                        <div>
+                            <h5>151</h5>
+                            <p>
+                                Brands Created
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients -->
+        <section class="clients about_clients">
+            <div id="container">
+                <div class="heading_cnt">
+                    <div class="heading">
+                        <h1 class="fade">we have <br> worked <br> for</h1>
+                        <h1 class="fill">we have <br> worked <br> for</h1>
+                    </div>
+                </div>
+                <div class="wrapper mT5">
+                    <h3>
+                        google/ microsoft / amazon / apple / gucci / rayban / microsoft / dribble / facebook / levis /
+                        outfitters /
+                        tesla / IBA / verizon / tiktok / lenskart / reliance
+                    </h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awwards -->
+        <section class="awwards">
+            <div id="container">
+                <div class="heading_cnt">
+                    <div class="heading">
+                        <h1 class="fade">Honors </h1>
+                        <h1 class="fill">Honors </h1>
+                    </div>
+                </div>
+
+                <h5 class="mT2">Showcasing Excellence: Our Journey through Honors and Awards in Web, App and UI/UX
+                    Design.</h5>
+
+                <div class="wrapper mT5">
+                    <div class="awwards_block focus">
+                        <div class="awwards_name">
+                            <span>(01)</span>
+                            <h4>Awwards</h4>
+                        </div>
+                        <p>45x - SITE OF THE DAY</p>
+                    </div>
+                    <div class="awwards_block focus">
+                        <div class="awwards_name">
+                            <span>(02)</span>
+                            <h4>CSS DESIGN</h4>
+                        </div>
+                        <p>27x - WOTD CSS AWARDS</p>
+                    </div>
+                    <div class="awwards_block focus">
+                        <div class="awwards_name">
+                            <span>(03)</span>
+                            <h4>FWA</h4>
+                        </div>
+                        <p>19x - FWA OF THE DAY</p>
+                    </div>
+                    <div class="awwards_block focus">
+                        <div class="awwards_name">
+                            <span>(04)</span>
+                            <h4>ORPETRON</h4>
+                        </div>
+                        <p>18x - SITE OF THE MONTH</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div id="container">
+                <div class="heading_cnt">
+                    <div class="heading">
+                        <h1 class="fade">have an <br> idea?</h1>
+                        <h1 class="fill">have an <br> idea?</h1>
+                    </div>
+                    <a href="contact.html" class="btn focus" data-magnetic>
+                        <span>Contact Us</span>
+                    </a>
+                </div>
+
+                <div class="wrapper focus mT5">
+                    <a href="https://www.instagram.com" target="_blank" class="socialLink">
+                        <h5>Instagram</h5>
+                        <img src="assets/instagram.svg" alt="Instagram" loading="lazy">
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank" class="socialLink">
+                        <h5>Facebook</h5>
+                        <img src="assets/facebook.svg" alt="Facebook" loading="lazy">
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank" class="socialLink">
+                        <h5>Linkedin</h5>
+                        <img src="assets/linkedin.svg" alt="Linkedin" loading="lazy">
+                    </a>
+                    <a href="https://www.behance.net" target="_blank" class="socialLink">
+                        <h5>Behance</h5>
+                        <img src="assets/behance.svg" alt="Behance" loading="lazy">
+                    </a>
+                    <a href="https://www.dribble.com" target="_blank" class="socialLink">
+                        <h5>Dribble</h5>
+                        <img src="assets/dribble.svg" alt="dribbble" loading="lazy">
+                    </a>
+                </div>
+
+                <div class="copyrights mT2">
+                    <p>©2024 Orignos</p>
+                </div>
+            </div>
+            <div class="full mT5 focus">
+                <h1>Orignos</h1>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- Scripts -->
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <!-- Locomotive -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Custom -->
+    <script src="js/main.js" type="module" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orignos</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <!-- CSS -->
+    <!-- Locomotive -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- fixed canvas cursor -->
+    <div class="canvas-wrapper">
+        <canvas id="fluid"></canvas>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+
+    <!-- Navbar -->
+    <nav>
+        <div id="container">
+            <a href="index.html">
+                <h2>Orignos</h2>
+            </a>
+
+            <div class="hamburger">
+                <p>menu</p>
+                <div class="toggle focus" data-magnetic>
+                    <span class="top"></span>
+                    <span class="bottom"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Fullscreen Nav-->
+    <div class="menu">
+        <div id="container">
+            <div class="left">
+                <a href="about.html" data-text='about'>about</a>
+                <a href="works.html" data-text='work'>work</a>
+                <a href="service.html" data-text='services'>services</a>
+                <a href="team.html" data-text='team'>team</a>
+                <a href="contact.html" data-text='contact'>contact</a>
+            </div>
+            <div class="right">
+                <a href="mailto:info@Orignos.com" class="focus">info@Orignos.com</a>
+                <a href="tel:+011234567890" class="focus">+01 1234567890</a>
+                <div class="social_cnt">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img class="focus" src="assets/instagram.svg" alt="instagram" loading="lazy" data-magnetic>
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img class="focus" src="assets/facebook.svg" alt="facebook" loading="lazy" data-magnetic>
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img class="focus" src="assets/linkedin.svg" alt="linkedin" loading="lazy" data-magnetic>
+                    </a>
+                    <a href="https://dribbble.com" target="_blank">
+                        <img class="focus" src="assets/dribble.svg" alt="dribble" loading="lazy" data-magnetic>
+                    </a>
+                    <a href="https://www.behance.net" target="_blank">
+                        <img class="focus" src="assets/behance.svg" alt="behance" loading="lazy" data-magnetic>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu_overlay"></div>
+
+    <!-- Scrollable Content -->
+    <div id="main">
+        <!-- Hero -->
+        <header class="hero">
+            <div id="container">
+                <h2 class="focus2">Creating Digital Wonders from Zero.</h2>
+                <p class="smallT">
+                    Transforming Ideas into Digital Art.
+                    Where Imagination Meets Reality,
+                    Your Vision, Our Craftsmanship.
+                    Together, We Build Tomorrow.
+                </p>
+                <a href="works.html" class="btn focus mT2" data-magnetic>
+                    <span>View Woks</span>
+                </a>
+            </div>
+        </header>
+
+        <!-- Reel -->
+        <div id="container">
+            <div class="parallax_img Reels">
+                <video src="assets/reel.mp4" autoplay muted loop preload="none" data-scroll
+                    data-scroll-speed="-1"></video>
+            </div>
+        </div>
+
+        <!-- About -->
+        <section class="about">
+            <div id="container">
+                <div class="heading_cnt">
+                    <div class="heading">
+                        <h1 class="fade">Who <br> We are</h1>
+                        <h1 class="fill">who <br> we are</h1>
+                    </div>
+                    <a href="about.html" class="btn focus" data-magnetic>
+                        <span>About Us</span>
+                    </a>
+                </div>
+                <div class="txt mT2">
+                    <h5>
+                        Orignos stands at the forefront of digital product agencies, specializing in branding, user
+                        interface and user experience design, alongside mobile and web development.
+                    </h5>
+                </div>
+                <div class="about_card mT5">
+                    <div class="card" data-scroll data-scroll-speed="1">
+                        <h1>40+</h1>
+                        <h4>awards & recognition</h4>
+                    </div>
+                    <div class="card" data-scroll data-scroll-speed="2">
+                        <h1>700+</h1>
+                        <h4>Projects completed</h4>
+                    </div>
+                    <div class="card" data-scroll data-scroll-speed="3">
+                        <h1>30+</h1>
+                        <h4>Team Members</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work -->
+        <section class="work">
+            <div id="container">
+                <div class="heading_cnt">
+                    <div class="heading">
+                        <h1 class="fade">Selected <br> Works</h1>
+                        <h1 class="fill">Selected <br> Works</h1>
+                    </div>
+                    <a href="works.html" class="btn focus" data-magnetic>
+                        <span>View All</span>
+                    </a>
+                </div>
+
+                <div class="wrapper mT5">
+                    <div class="col">
+                        <div class="card">
+                            <div class="parallax_img">
+                                <img src="assets/work1.png" alt="kodam" loading="lazy" data-scroll
+                                    data-scroll-speed="-.8">
+                            </div>
+                            <div class="details mT3">
+                                <h2>kodam</h2>
+                                <p>UIUX Design, Web Development</p>
+                                <a class="btn focus mT2" data-magnetic
+                                    href="https://dribbble.com/shots/23682713-KODAM-Creative-Agency-Website"
+                                    target="_blank">
+                                    <span>View Project</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="parallax_img">
+                                <img src="assets/work2.jpg" alt="Sigen" loading="lazy" data-scroll
+                                    data-scroll-speed="-.8">
+                            </div>
+                            <div class="details mT3">
+                                <h2>Sigen</h2>
+                                <p>Branding</p>
+                                <a class="btn focus mT2" data-magnetic
+                                    href="https://dribbble.com/shots/23655060-Sigen-Branding-Part-B" target="_blank">
+                                    <span>View Project</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="parallax_img">
+                                <img src="assets/work3.jpg" alt="VPN" loading="lazy" data-scroll
+                                    data-scroll-speed="-.8">
+                            </div>
+                            <div class="details mT3">
+                                <h2>VPN App</h2>
+                                <p>UIUX Design, Wireframe, App Development</p>
+                                <a class="btn focus mT2" data-magnetic
+                                    href="https://dribbble.com/shots/23725863-VPN-Mobile-App-Design" target="_blank">
+                                    <span>View Project</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="parallax_img">
+                                <img src="assets/work4.png" alt="Dalius" loading="lazy" data-scroll
+                                    data-scroll-speed="-.8">
+                            </div>
+                            <div class="details mT3">
+                                <h2>Dalius</h2>
+                                <p>Branding, Graphics Design</p>
+                                <a class="btn focus mT2" data-magnetic
+                                    href="https://dribbble.com/shots/20574894-Gradient-Logo-Design-Whimble"
+                                    target="_blank">
+                                    <span>View Project</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="parallax_img">
+                                <img src="assets/work5.png" alt="Pueblo" loading="lazy" data-scroll
+                                    data-scroll-speed="-.8">
+                            </div>
+                            <div class="details mT3">
+                                <h2>Pueblo</h2>
+                                <p>UIUX Design, Illustration</p>
+                                <a class="btn focus mT2" data-magnetic
+                                    href="https://dribbble.com/shots/23654514-Crackers-Package-Design" target="_blank">
+                                    <span>View Project</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients -->
+        <section class="clients">
+            <div id="container">
+                <div class="heading_cnt">
+                    <div class="heading">
+                        <h1 class="fade">Happy <br> Clients</h1>
+                        <h1 class="fill">Happy <br> Clients</h1>
+                    </div>
+                </div>
+                <div class="wrapper mT5">
+                    <h3>
+                        google/ microsoft / amazon / apple / gucci / rayban / microsoft / dribble / facebook / levis /
+                        outfitters /
+                        tesla / IBA / verizon / tiktok / lenskart / reliance
+                    </h3>
+                </div>
+            </div>
+
+            <!-- Swiper -->
+            <div class="swiper mySwiper mT5">
+                <div class="swiper-wrapper focus">
+                    <div class="swiper-slide">
+                        <div class="top">
+                            <h2>"</h2>
+                            <p>
+                                Collaborating with the team at Orignos has been a game-changer for our
+                                startup. From conceptualizing our branding to the seamless execution of our website and
+                                mobile app, their expertise in UI/UX has not only elevated our online presence but has
+                                significantly improved user engagement.
+                            </p>
+                        </div>
+                        <div class="bottom">
+                            <h5>Emily R</h5>
+                            <p>Co-Founder of Levis</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="top">
+                            <h2>"</h2>
+                            <p>
+                                When we approached Orignos, our e-commerce platform was in dire need of a
+                                facelift. Their team took on the challenge with enthusiasm and professionalism,
+                                delivering a comprehensive redesign that has not only improved our brand's image but
+                                also our sales metrics.
+                            </p>
+                        </div>
+                        <div class="bottom">
+                            <h5>Marcus</h5>
+                            <p>Director at Firm</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="top">
+                            <h2>"</h2>
+                            <p>
+                                Our non-profit's mission is to reach and engage with as many people as possible, but our
+                                outdated website was hindering our efforts. From the outset, Orignos
+                                understood the importance of our work and the need for a robust digital platform.
+                            </p>
+                        </div>
+                        <div class="bottom">
+                            <h5>Julia Bale</h5>
+                            <p>CEO at Verizon</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="top">
+                            <h2>"</h2>
+                            <p>
+                                The challenge of launching a new product in a saturated market was daunting. We needed a
+                                partner that could not only design a visually appealing app but also create a compelling
+                                brand identity that would resonate with our target audience.
+                            </p>
+                        </div>
+                        <div class="bottom">
+                            <h5>Ryan Allen</h5>
+                            <p>Product Manager at IBA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dribble -->
+        <section class="dribbble">
+            <!-- Marquee -->
+            <div class="marquee">
+                <div id="marquee-container" class="marquee-container">
+                    <h1 class="marquee-text">—
+                        creative ideas! — creative ideas! — creative ideas! — creative ideas! — creative ideas! —
+                        creative ideas! —
+                    </h1>
+                    <h1 class="marquee-text">
+                        creative ideas! — creative ideas! — creative ideas! — creative ideas! — creative ideas! —
+                        creative ideas! —
+                    </h1>
+                </div>
+
+                <div id="marquee-container-reverse" class="marquee-container">
+                    <h1 class="marquee-text-reverse">
+                        Let's scroll — Let's scroll — Let's scroll — Let's scroll — Let's scroll — Let's scroll — Let's
+                        scroll —
+                    </h1>
+                    <h1 class="marquee-text-reverse">
+                        Let's scroll — Let's scroll — Let's scroll — Let's scroll — Let's scroll — Let's scroll — Let's
+                        scroll —
+                    </h1>
+                </div>
+            </div>
+
+            <!-- Dribble wrapper -->
+            <div class="wrapper">
+                <div class="content" id="container">
+                    <img src="assets/dribbbleLogo.webp" alt="dribble" loading="lazy">
+                    <h5 class="mT2">
+                        Energizing the digital landscape, our creativity shines in bespoke websites.
+                    </h5>
+                    <a href="https://dribbble.com" target="_blank" class="btn focus mT2" data-magnetic>
+                        <span>View Dribble</span>
+                    </a>
+                </div>
+                <!-- mousemove images -->
+                <img class="dribImg img1" src="assets/work1.png" alt="mousemove" loading="lazy">
+                <img class="dribImg img2" src="assets/work2.jpg" alt="mousemove" loading="lazy">
+                <img class="dribImg img3" src="assets/work3.jpg" alt="mousemove" loading="lazy">
+                <img class="dribImg img4" src="assets/work4.png" alt="mousemove" loading="lazy">
+                <img class="dribImg img5" src="assets/work5.png" alt="mousemove" loading="lazy">
+                <img class="dribImg img6" src="assets/work6.jpg" alt="mousemove" loading="lazy">
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div id="container">
+                <div class="heading_cnt">
+                    <div class="heading">
+                        <h1 class="fade">have an <br> idea?</h1>
+                        <h1 class="fill">have an <br> idea?</h1>
+                    </div>
+                    <a href="contact.html" class="btn focus" data-magnetic>
+                        <span>Contact Us</span>
+                    </a>
+                </div>
+
+                <div class="wrapper focus mT5">
+                    <a href="https://www.instagram.com" target="_blank" class="socialLink">
+                        <h5>Instagram</h5>
+                        <img src="assets/instagram.svg" alt="Instagram" loading="lazy">
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank" class="socialLink">
+                        <h5>Facebook</h5>
+                        <img src="assets/facebook.svg" alt="Facebook" loading="lazy">
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank" class="socialLink">
+                        <h5>Linkedin</h5>
+                        <img src="assets/linkedin.svg" alt="Linkedin" loading="lazy">
+                    </a>
+                    <a href="https://www.behance.net" target="_blank" class="socialLink">
+                        <h5>Behance</h5>
+                        <img src="assets/behance.svg" alt="Behance" loading="lazy">
+                    </a>
+                    <a href="https://www.dribble.com" target="_blank" class="socialLink">
+                        <h5>Dribble</h5>
+                        <img src="assets/dribble.svg" alt="dribbble" loading="lazy">
+                    </a>
+                </div>
+
+                <div class="copyrights mT2">
+                    <p>©2024 Orignos</p>
+                </div>
+            </div>
+            <div class="full mT5 focus">
+                <h1>Orignos</h1>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- Scripts -->
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <!-- Locomotive -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Custom -->
+    <script src="js/main.js" type="module" defer></script>
+</body>
+
+</html>
