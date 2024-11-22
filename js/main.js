@@ -13,6 +13,15 @@ window.onload = () => {
     pageReveal();
 }
 
+window.addEventListener('scroll', function () {
+    const navbar = document.getElementById('nav');
+    if (window.scrollY > 100) {
+        navbar.classList.add('scrolled');
+    } else {
+        navbar.classList.remove('scrolled');
+    }
+});
+
 // LocomotiveJs();
 initFluid();
 cursor();
@@ -110,11 +119,3 @@ function pageReveal() {
     })
 }
 
-window.addEventListener('scroll', function () {
-    const navbar = document.querySelector('nav');
-    if (window.pageYOffset > 100) {
-        navbar.classList.add('scrolled');
-    } else {
-        navbar.classList.remove('scrolled');
-    }
-});
