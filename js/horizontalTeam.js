@@ -6,7 +6,7 @@ export function horizontalScrollInsights() {
         x: () => -(horizontalScrollLength - window.innerWidth),
         ease: 'none',
         scrollTrigger: {
-            trigger: '.insights_Office', scroller: '#main', pin: true, scrub: true, start: 'top top', end: () => `+=${horizontalScrollLength}`, invalidateOnRefresh: true
+            trigger: '.insights_Office', scroller: '#main', /* pin: true,  */scrub: true, start: 'top top', end: () => `+=${horizontalScrollLength}`, invalidateOnRefresh: true
         }
     });
 }

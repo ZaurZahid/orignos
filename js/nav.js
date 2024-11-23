@@ -27,8 +27,8 @@ export function animateNav() {
         delay: -1
     });
 
-    tl.staggerFrom(".menu a", 0.1, { y: 20, opacity: 0, ease: Expo.ease, delay: -.01 }, 0.05);
-    tl.staggerFrom(".social_cnt img", .1, { y: 20, opacity: 0, ease: Expo.ease, delay: -.01 }, 0.02);
+    // tl.staggerFrom(".menu a", 0.1, { y: 20, opacity: 0, ease: Expo.ease, delay: -.01 }, 0.05);
+    // tl.staggerFrom(".social_cnt img", .1, { y: 20, opacity: 0, ease: Expo.ease, delay: -.01 }, 0.02);
 
     tl.reverse();
 
