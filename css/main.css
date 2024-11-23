@@ -22,9 +22,7 @@ body {
 
 ::-webkit-scrollbar-track {
   display: none;
-}
-
-*/
+} */
 ::-moz-selection {
   color: #121315;
   background: #b9e9b3;
@@ -1118,6 +1116,14 @@ footer .full h1 {
   overflow-x: scroll;
 }
 
+.about_team::-webkit-scrollbar {
+  display: none;
+}
+
+.about_team::-webkit-scrollbar-track {
+  display: none;
+}
+
 .about_team .wrapper {
   display: flex;
   align-items: center;
@@ -1397,6 +1403,14 @@ footer .full h1 {
   flex-direction: column;
   justify-content: space-evenly;
   overflow-x: scroll;
+}
+
+.insights_Office::-webkit-scrollbar {
+  display: none;
+}
+
+.insights_Office::-webkit-scrollbar-track {
+  display: none;
 }
 
 .insights_Office .horizontal_scroll {
